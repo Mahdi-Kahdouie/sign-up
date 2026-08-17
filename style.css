@@ -2,12 +2,19 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: sans-serif,myFont;
 }
 
 *{
     box-sizing: border-box;
 }
+
+
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/Dusha.ttf);
+}
+
 
 
 .container{
@@ -108,4 +115,31 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.bottom{
+    display: flex;
+    padding:  50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+    
+
+}
+.create-account{
+    background-color: rgb(89,109,72);
+    padding: 15px 36px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 4px 4px rgb(114, 114, 114) ;
+    cursor: pointer;
+    
+}
+
+.bottom span{
+    
+    color: rgb(89,109,72);
+    font-weight: bold;
+    cursor: pointer;
 }
